@@ -1,0 +1,60 @@
+.web{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../resources/svgs/bg3.svg');
+    padding: 30px
+}
+
+.portfolio, .dice-game, .e-school, .scrooling{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+}
+
+.portfolio img, .dice-game img, .e-school img, .scrooling img{
+    height: 250px;
+    border-radius: 10px;
+}
+
+.portfolio img{
+    border: 5px solid gray;
+}
+
+.dice-game img{
+    border: 5px solid rgb(129, 129, 129);
+}
+
+.e-school img{
+    border: 5px solid rgb(139, 122, 122);
+}
+
+.scrooling img{
+    border: 5px solid #000;
+}
+
+.portfolio div p, .dice-game div p, .e-school div p, .scrooling div p{
+    color: white;
+    line-height: 30px
+}
+
+.website-name{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.portfolio div ul li, .dice-game div ul li, .e-school div ul li, .scrooling div ul li{
+    list-style: none ;
+    color: #fff;
+    line-height: 20px;
+}
+
+
+.portfolio a , .dice-game a, .e-school a, .scrooling a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: #fff;
+}
+
+
+
